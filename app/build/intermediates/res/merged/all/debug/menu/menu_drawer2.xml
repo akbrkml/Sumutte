@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--All the items added without any grouping-->
+
+
+    <!--<item-->
+        <!--android:id="@+id/navReport"-->
+        <!--android:icon="@drawable/ic_action_report"-->
+        <!--android:title="Laporanku" />-->
+
+    <!--<item-->
+        <!--android:id="@+id/navSett"-->
+        <!--android:icon="@drawable/ic_action_set"-->
+        <!--android:title="Pengaturan" />-->
+    <item
+        android:id="@+id/rute"
+        android:icon="@drawable/car"
+        android:title="@string/rute" />
+    <item
+        android:id="@+id/history"
+        android:icon="@drawable/ic_history"
+        android:title="@string/riwayat" />
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_actionshare"
+        android:title="@string/bagikan" />
+    <item
+        android:id="@+id/navAbout"
+        android:icon="@drawable/ic_action_about"
+        android:title="@string/tentang" />
+
+
+
+    <!--The drawer itesm below have been classified into groups-->
+
+    <!--<group-->
+    <!--android:id="@+id/group_1"-->
+    <!--android:checkableBehavior="single">-->
+    <!--<item-->
+    <!--android:id="@+id/navigation_item_1"-->
+    <!--android:icon="@drawable/ic_number_0"-->
+    <!--android:title="@string/navigation_item_1" />-->
+    <!--<item-->
+    <!--android:id="@+id/navigation_item_2"-->
+    <!--android:icon="@drawable/ic_number_1"-->
+    <!--android:title="@string/navigation_item_2" />-->
+    <!--</group>-->
+    <!--<group-->
+    <!--android:id="@+id/group_2"-->
+    <!--android:checkableBehavior="single">-->
+    <!--<item-->
+    <!--android:id="@+id/navigation_item_3"-->
+    <!--android:icon="@drawable/ic_number_2"-->
+    <!--android:title="@string/navigation_item_3" />-->
+    <!--<item-->
+    <!--android:id="@+id/navigation_item_4"-->
+    <!--android:icon="@drawable/ic_number_3"-->
+    <!--android:title="@string/navigation_item_4" />-->
+    <!--</group>-->
+    <!--<group-->
+    <!--android:id="@+id/group_3"-->
+    <!--android:checkableBehavior="single">-->
+    <!--<item-->
+    <!--android:id="@+id/navigation_item_5"-->
+    <!--android:icon="@drawable/ic_number_4"-->
+    <!--android:title="@string/navigation_item_5" />-->
+    <!--</group>-->
+
+
+    <!--The drawer items below have been categorized according to headers-->
+    <!--<item-->
+    <!--android:id="@+id/navigation_item_1"-->
+    <!--android:icon="@drawable/ic_number_0"-->
+    <!--android:title="@string/navigation_item_1">-->
+    <!--<menu>-->
+    <!--<item-->
+    <!--android:id="@+id/navigation_item_2"-->
+    <!--android:icon="@drawable/ic_number_1"-->
+    <!--android:title="@string/navigation_item_2" />-->
+    <!--<item-->
+    <!--android:id="@+id/navigation_item_3"-->
+    <!--android:icon="@drawable/ic_number_2"-->
+    <!--android:title="@string/navigation_item_3" />-->
+    <!--</menu>-->
+    <!--</item>-->
+
+    <!--<item-->
+    <!--android:id="@+id/navigation_item_4"-->
+    <!--android:icon="@drawable/ic_number_3"-->
+    <!--android:title="@string/navigation_item_4">-->
+    <!--<menu>-->
+    <!--<item-->
+    <!--android:id="@+id/navigation_item_5"-->
+    <!--android:icon="@drawable/ic_number_4"-->
+    <!--android:title="@string/navigation_item_5" />-->
+    <!--</menu>-->
+    <!--</item>-->
+
+</menu><!-- From: file:/D:/Dev/Andro/sample/NDK%20Proj/sumutte/sumutte/app/src/main/res/menu/menu_drawer2.xml -->

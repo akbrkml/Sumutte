@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Sumutte</string>
+    <string name="title_activity_main">Sumutte</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_add_route">AddRouteActivity</string>
+    <string name="txt_from">Lokasi Anda</string>
+    <string name="title_activity_add_map">Map</string>
+    <string name="txt_liburan">Sumutte</string>
+    <string name="title_activity_view_route">Map</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="tentang">Tentang Sumutte</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="title_activity_third">Tentang Sumutte</string>
+    <string name="title_activity_app_bar">app_bar</string>
+    <string name="versi">VERSI</string>
+    <string name="satu">1.0</string>
+    <string name="contact">KONTAK KAMI</string>
+    <string name="twit">Twitter</string>
+    <string name="fb">Facebook</string>
+    <string name="email">Email</string>
+    <string name="kolodete">Plaps Studio © 2016</string>
+    <string name="text_dismiss">Dismiss</string>
+    <string name="detail_btn">Detail</string>
+    <string name="title_activity_detail">Detail</string>
+    <string name="lokasi">Lokasi</string>
+    <string name="share">Bagikan dengan :</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8296380544960186/4338555753 </string>
+    <string name="int_ad">ca-app-pub-8296380544960186/2861822555</string>
+    <string name="rute">Rute Wisata</string>
+    <string name="riwayat">Riwayat Wisata</string>
+    <string name="bagikan">Bagikan Aplikasi</string>
+    <string name="belum">Anda belum mempunyai riwayat wisata</string>
+</resources>

@@ -1,0 +1,87 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context=".ui.DetailActivity">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical">
+
+                   <android.support.v7.widget.Toolbar
+                       android:id="@+id/app_bar"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:background="@color/colorPrimary"
+                       android:minHeight="?attr/actionBarSize"
+                       app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+                   <com.google.android.gms.ads.AdView
+                       android:layout_marginTop="@dimen/activity_vertical_margin"
+                       android:id="@+id/adView"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center"
+                       ads:adSize="BANNER"
+                       ads:adUnitId="@string/banner_ad_unit_id">
+                   </com.google.android.gms.ads.AdView>
+
+               <ScrollView
+                   android:layout_margin="@dimen/activity_horizontal_margin"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <com.android.volley.toolbox.NetworkImageView
+                           android:layout_width="match_parent"
+                            android:layout_height="180dp"
+                            android:src="@drawable/placeholder"
+                            android:id="@+id/thumbnail"/>
+
+                        <TextView android:layout_marginTop="@dimen/activity_horizontal_margin"
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="20sp"
+                            android:id="@+id/nama"/>
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="16sp"
+                            android:id="@+id/desc"/>
+                    </LinearLayout>
+
+
+               </ScrollView>
+           </LinearLayout>
+
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:id="@+id/fab"
+        app:fab_colorNormal="@color/colorAccent"
+        app:fab_colorPressed="@color/colorPrimary"
+        android:layout_alignParentRight="true"
+        app:fab_icon="@drawable/car"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>

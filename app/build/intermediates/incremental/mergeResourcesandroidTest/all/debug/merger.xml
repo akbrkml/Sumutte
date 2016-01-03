@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\Dev\Andro\sample\NDK Proj\sumutte\sumutte\app\src\androidTest\res"/><source path="D:\Dev\Andro\sample\NDK Proj\sumutte\sumutte\app\build\generated\res\rs\androidTest\all\debug"/><source path="D:\Dev\Andro\sample\NDK Proj\sumutte\sumutte\app\build\generated\res\resValues\androidTest\all\debug"/></dataSet><dataSet config="androidTestAll"><source path="D:\Dev\Andro\sample\NDK Proj\sumutte\sumutte\app\src\androidTestAll\res"/></dataSet><mergedItems/></merger>

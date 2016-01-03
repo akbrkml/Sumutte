@@ -1,0 +1,132 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.kolodete.kamusbudayaindonesia.About">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="150dp"
+               android:src="@drawable/head"/>
+
+           <TextView
+               android:paddingLeft="@dimen/activity_vertical_margin"
+               android:paddingBottom="@dimen/ad"
+               android:layout_width="match_parent"
+               android:layout_height="@dimen/garis"
+               android:gravity="bottom"
+               android:textSize="18sp"
+               android:text="@string/versi"
+               android:background="@color/eee"/>
+
+           <TextView
+               android:paddingLeft="@dimen/activity_vertical_margin"
+               android:paddingBottom="@dimen/ad"
+               android:layout_width="match_parent"
+               android:layout_height="@dimen/garis"
+               android:gravity="bottom"
+               android:textSize="18sp"
+               android:textColor="@color/colorTextPrimary"
+               android:text="@string/satu"
+               android:background="@color/icons"/>
+
+           <TextView
+               android:paddingLeft="@dimen/activity_vertical_margin"
+               android:paddingBottom="@dimen/ad"
+               android:layout_width="match_parent"
+               android:layout_height="@dimen/garis"
+               android:gravity="bottom"
+               android:textSize="18sp"
+               android:text="@string/contact"
+               android:background="@color/eee"/>
+
+           <TextView
+               android:id="@+id/tw"
+               android:paddingLeft="@dimen/activity_vertical_margin"
+               android:paddingBottom="@dimen/ad"
+               android:layout_width="match_parent"
+               android:layout_height="@dimen/garis"
+               android:gravity="bottom"
+               android:textSize="18sp"
+               android:textColor="@color/twit"
+               android:text="@string/twit"
+               android:background="@color/icons"/>
+           <View
+               android:layout_marginLeft="@dimen/activity_vertical_margin"
+               android:layout_marginRight="@dimen/activity_vertical_margin"
+               android:layout_width="match_parent"
+               android:layout_height="@dimen/view"
+               android:background="@color/eee"/>
+
+           <TextView
+               android:id="@+id/fb"
+               android:paddingLeft="@dimen/activity_vertical_margin"
+               android:paddingBottom="@dimen/ad"
+               android:layout_width="match_parent"
+               android:layout_height="@dimen/garis"
+               android:gravity="bottom"
+               android:textSize="18sp"
+               android:textColor="@color/fb"
+               android:text="@string/fb"
+               android:background="@color/icons"/>
+           <View
+               android:layout_marginLeft="@dimen/activity_vertical_margin"
+               android:layout_marginRight="@dimen/activity_vertical_margin"
+               android:layout_width="match_parent"
+               android:layout_height="@dimen/view"
+               android:background="@color/eee"/>
+
+           <TextView
+               android:id="@+id/mail"
+               android:paddingLeft="@dimen/activity_vertical_margin"
+               android:paddingBottom="@dimen/ad"
+               android:layout_width="match_parent"
+               android:layout_height="@dimen/garis"
+               android:gravity="bottom"
+               android:textSize="18sp"
+               android:textColor="@color/email"
+               android:text="@string/email"
+               android:background="@color/icons"/>
+           <View
+               android:layout_marginLeft="@dimen/activity_vertical_margin"
+               android:layout_marginRight="@dimen/activity_vertical_margin"
+               android:layout_width="match_parent"
+               android:layout_height="@dimen/view"
+               android:background="@color/eee"/>
+
+           <TextView
+               android:layout_marginTop="@dimen/activity_vertical_margin"
+               android:id="@+id/kolodete"
+               android:layout_width="match_parent"
+               android:layout_height="@dimen/garis"
+               android:gravity="center"
+               android:textSize="15sp"
+               android:textColor="@color/kolodete"
+               android:text="@string/kolodete"/>
+
+
+       </LinearLayout>
+   </ScrollView>
+
+</LinearLayout>
